@@ -8,3 +8,13 @@ variable "s3_bucket_name" {
   description = "Test_S3_Bucket"
   type        = string
 }
+variable "aws_access_key" {
+  type      = string
+  sensitive = true
+}
+
+variable "aws_secret_key" {
+  type      = string
+  sensitive = true
+}
+
